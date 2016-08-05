@@ -1,0 +1,235 @@
+body{
+	box-sizing: content-box;
+	margin: 0 auto;
+}
+.container{
+	width: 90%;
+	margin:0 auto;
+	padding:0;
+}
+header{
+	margin: 0;
+	border-bottom: 1px solid black;
+	width: 100%;
+	height: 120px;
+	background: white;
+}
+header h2{
+	padding-top: 20px;
+	text-align: center;
+	color:#09121E; 
+}
+nav ul{
+	list-style-type: none;
+	padding-top: 30px;
+	position: relative;
+	float: left;
+	left: 50%;
+	padding-bottom: 30px;
+
+}
+nav li{
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	right: 50%;
+}
+nav li:hover a {
+	background: #08121E;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 0px 40px;
+	color:black;
+	font-weight: bold;
+	
+}
+
+nav a:hover{
+	color: #fff;
+}/* ----------------------seccion1----------------------*/
+.section1{
+ background-image: url("../img/dance_1.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+ height: 400px;
+}
+.logo{
+	color: white;
+	padding-top: 60px;
+	margin-left: 100px;
+	margin-bottom: 40px;
+}
+.logo a{
+	font-size: 70px;
+	font-family: Arial;
+}
+.logo h4{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.logo p{
+	margin: 5px;
+}
+.inscripcion{
+	margin-left: 100px;
+}
+.inscripcion a{
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	background: #08121E;
+	padding: 10px 30px 10px 30px;
+		}
+.inscripcion  a:hover{
+	background: white;
+	color:#08121E; 
+}
+
+/*-----------------------------------------seccion2---------------------*/
+.section2{
+	background-image: url("../img/textura_2.jpg");
+	text-align: center;
+	padding: 50px 0px 70px 0px;
+}
+.section2 p{
+	font-size: 25px;
+}
+.decorado1{
+	width: 120px;
+	height: 90px;
+}
+.boton a{
+	text-decoration: none;
+	padding: 10px 50px;
+	background: #08121F;
+	color: white;
+}
+ .boton a:hover{
+	background: white;
+	color:  #08121E;
+}
+/*-------------------seccion3------------*/
+.imagen1{
+	background-image: url("../img/instructor_4.jpg");
+	background-size: cover;
+	height: 350px;
+	border: 1px solid #1a237e;
+}
+.imagen2{
+	background-image:url("../img/profesor_9.jpg") ;
+	background-size: cover;
+	height: 350px;
+	border: 1px solid #1a237e;
+}
+.boton2{
+	position:absolute;
+	padding-left: 480px;
+	padding-top: 310px;
+}
+.boton2 a{
+	text-decoration: none;
+	padding: 20px 120px;
+	background: #08121F;
+	color: white;
+}
+ .boton2 a:hover{
+	background: white;
+	color:  #08121E;
+}
+
+/*--------------seccion4-------------*/
+.seccion4{
+	background-image: url("../img/textura_2.jpg");
+	padding: 80px ;
+}
+.seccion4 a{
+	font-size: 50px;
+	font-family: Arial;
+}
+/*-----------------------secion5--------------*/
+.seccion5{
+	background:#08121E;
+	padding: 60px;
+}
+.seccion5 h3{
+	color: white;
+	padding-top:50px;
+}
+.seccion5 p{
+	color: white;
+	padding: 5px;
+}
+
+.Visita{
+	padding-right: 90px;
+}
+/*------------seccion6---------------*/
+.seccion6{
+	background-image: url("../img/shoes_!.jpg");
+	background-repeat: no-repeat;
+	background-position: 100%;
+	height: 500px;
+	padding: 50px 100px;
+}
+.container h3{
+ color:#08121E;
+ margin-bottom: 20px;
+ font-weight: 600px;
+}
+.nombre{
+	width: 180px;
+	height: 50px;
+}
+input{
+	margin: 5px;
+}
+input.submit
+{
+		width: auto;
+		background-position: 4px -91px;
+		background-color: #08121E;
+		color: #FFFFFF;
+		cursor: pointer;
+		height: 50px;
+	width: 532px;
+}
+
+input.user{
+ background-position: 4px 4px;
+
+	background: url("../img/user82.png") no-repeat scroll 0 0 transparent;
+		border: 1px solid #BFBFBF;
+		color: #BFBFBF;
+		padding: 5px 5px 5px 25px;
+		width: 500px; 
+}
+
+input.email{ background-position: 4px 4px;
+background: url("../img/message106.png") no-repeat scroll 0 0 transparent;
+		border: 1px solid #BFBFBF;
+		color: #BFBFBF;
+		padding: 5px 5px 5px 25px;
+		width: 500px; 
+		 }
+input.mensaje{ background-position: 4px 4px;
+background: url("../img/draw39.png") no-repeat scroll 0 0 transparent;
+		border: 1px solid #BFBFBF;
+		color: #BFBFBF;
+		padding: 5px 5px 5px 25px;
+		width: 500px; 
+		height: 100px;
+		 }
+
+ /*-----------footer-------*/
+ footer{
+	background: #03152D;
+	height: 50px;
+ }    
+ footer p{
+	padding: 20px 100px;
+	color: white;
+ } 

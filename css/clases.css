@@ -1,0 +1,214 @@
+body{
+	box-sizing: content-box;
+	margin: 0 auto;
+}
+.container{
+	width: 90%;
+	margin:0 auto;
+	padding:0;
+}
+header{
+	margin: 0;
+	border-bottom: 1px solid black;
+	width: 100%;
+	height: 120px;
+	background: white;
+}
+header h2{
+	padding-top: 20px;
+	text-align: center;
+	color:#09121E; 
+}
+nav ul{
+	list-style-type: none;
+	padding-top: 30px;
+	position: relative;
+	float: left;
+	left: 50%;
+	padding-bottom: 30px;
+
+}
+nav li{
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	right: 50%;
+}
+nav li:hover a {
+	background: #08121E;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 0px 40px;
+	color:black;
+	font-weight: bold;
+	
+}
+
+nav a:hover{
+	color: #fff;
+}
+/*-------------------seccion3------------*/
+.seccion3{
+	background: #e0e0e0 ;
+	padding-top:100px;
+	padding-bottom: 60px;
+}
+.seccion3 h1{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.imagen3{
+	background-image: url("../img/dance_12.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-right: 15px;
+	padding-left: 40px;
+	padding-bottom:30px;
+	padding-top: 20px;
+	height: 530px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.imagen4{
+	background-image: url("../img/breakdance.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-right: 15px;
+	padding-left: 40px;
+	padding-bottom:30px;
+	padding-top: 20px;
+	height: 530px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.imagen5{
+	background-image: url("../img/lirical-jazz.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-right: 15px;
+	padding-left: 40px;
+	padding-bottom:30px;
+	padding-top: 20px;
+	height: 530px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.imagen6{
+	background-image: url("../img/arabe.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-right: 15px;
+	padding-left: 40px;
+	padding-bottom:30px;
+	padding-top:20px;
+	height: 530px;
+	text-align: center;
+}
+.imagen7{
+	background-image: url("../img/little.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-right: 15px;
+	padding-left: 40px;
+	padding-bottom:30px;
+	padding-top: 20px;
+	height: 530px;
+	text-align: center;
+}
+.imagen8{
+	background-image: url("../img/yoga.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-right: 15px;
+	padding-left: 40px;
+	padding-bottom:30px;
+	padding-top: 20px;
+	height: 530px;
+	text-align: center;
+}
+.descripcionlogo{
+	color: white;
+	padding:20px 20px;
+	background: #212121 ;
+	position: absolute;
+	margin-top:200px; 
+	opacity: 0.8;
+	
+}
+.descripcionlogo h1{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+.descripcionlogo p{
+	font-size: 12px;
+}
+/*------------seccion6---------------*/
+.seccion6{
+	background-image: url("../img/shoes_!.jpg");
+	background-repeat: no-repeat;
+	background-position: 100%;
+	height: 500px;
+	padding: 50px 100px;
+}
+.container h3{
+ color:#08121E;
+ margin-bottom: 20px;
+ font-weight: 600px;
+}
+.nombre{
+	width: 180px;
+	height: 50px;
+}
+input{
+	margin: 5px;
+}
+input.submit
+{
+		width: auto;
+		background-position: 4px -91px;
+		background-color: #08121E;
+		color: #FFFFFF;
+		cursor: pointer;
+		height: 50px;
+		width: 532px;
+}
+
+input.user{
+ 		background-position: 4px 4px;
+		background: url("../img/user82.png") no-repeat scroll 0 0 transparent;
+		border: 1px solid #BFBFBF;
+		color: #BFBFBF;
+		padding: 5px 5px 5px 25px;
+		width: 500px; 
+}
+
+input.email{ background-position: 4px 4px;
+		background: url("../img/message106.png") no-repeat scroll 0 0 transparent;
+		border: 1px solid #BFBFBF;
+		color: #BFBFBF;
+		padding: 5px 5px 5px 25px;
+		width: 500px; 
+		 }
+input.mensaje{ background-position: 4px 4px;
+background: url("../img/draw39.png") no-repeat scroll 0 0 transparent;
+		border: 1px solid #BFBFBF;
+		color: #BFBFBF;
+		padding: 5px 5px 5px 25px;
+		width: 500px; 
+		height: 100px;
+		 }
+
+ /*-----------footer-------*/
+ footer{
+	background: #03152D;
+	height: 50px;
+ }    
+ footer p{
+	padding: 20px 100px;
+	color: white;
+ } 
